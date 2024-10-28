@@ -1,13 +1,7 @@
 # zed-golangci-lint
 
-## Build wasm release?
+## Build
 
-Direct compiling isn't working:
-
-```shell
-cargo build --target wasm32-wasip1 --release
-
-```
 See https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally
 
 ## Usage
@@ -35,11 +29,6 @@ brew install golangci-lint-langserver
         "--issues-exit-code=1"
       ]
     }
-  }
-},
-"languages": {
-  "Go": {
-    "language_servers": ["gopls", "golangci-lint"]
   }
 }
 ```
