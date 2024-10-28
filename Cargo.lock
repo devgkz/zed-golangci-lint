@@ -304,6 +304,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "zed-golangci-lint"
+version = "0.1.1"
+dependencies = [
+ "zed_extension_api",
+]
+
+[[package]]
 name = "zed_extension_api"
 version = "0.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -312,11 +319,4 @@ dependencies = [
  "serde",
  "serde_json",
  "wit-bindgen",
-]
-
-[[package]]
-name = "zed_golangci_lint"
-version = "0.1.0"
-dependencies = [
- "zed_extension_api",
 ]

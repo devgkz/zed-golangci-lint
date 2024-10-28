@@ -1,8 +1,8 @@
 [package]
-name = "zed_golangci_lint"
-version = "0.1.0"
+name = "zed-golangci-lint"
+version = "0.1.1"
 edition = "2021"
-publish = true
+publish = false
 license = "MIT"
 
 [lib]

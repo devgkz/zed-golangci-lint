@@ -1,4 +1,11 @@
-# zed_golangci_lint
+# zed-golangci-lint
+
+## Build wasm release
+
+```shell
+cargo build --target wasm32-unknown-unknown --release
+
+```
 
 ## Usage
 
