@@ -1,11 +1,14 @@
 # zed-golangci-lint
 
-## Build wasm release
+## Build wasm release?
+
+Direct compiling isn't working:
 
 ```shell
-cargo build --target wasm32-unknown-unknown --release
+cargo build --target wasm32-wasip1 --release
 
 ```
+See https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally
 
 ## Usage
 
